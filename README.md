@@ -50,9 +50,3 @@ SARIMA compared with two simple baselines on the same test period (lower MAE is 
 - For Bengaluru and Delhi, a simple monthly-average baseline matched or slightly beat SARIMA (R² 0.898 vs 0.866 and 0.904 vs 0.895), showing that most of the pattern is the yearly cycle
 - Kolkata's SARIMA forecast drifted too low (R² = -0.33); the same-month-last-year baseline performed best (R² = 0.887)
 - Mumbai's January-March AQI fell 38% from 2023 to 2024 (181 to 112), a level shift that makes early 2024 hard to forecast
-**Notebooks** (run in order: 01 → 02 → 03 → 04)
-```bash
-pip install -r requirements.txt
-pip install jupyter matplotlib seaborn scikit-learn pmdarima
-jupyter notebook
-```
