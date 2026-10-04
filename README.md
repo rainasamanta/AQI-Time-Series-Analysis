@@ -12,7 +12,7 @@ Bengaluru | Delhi | Kolkata | Mumbai    January 2019 - March 2025 (daily CPCB AQ
 - Test whether SARIMA beats simple seasonal baselines
 
 ## Dashboard
-[Live Streamlit App](https://your-streamlit-app.streamlit.app)
+[Live Streamlit App](https://aqi-time-series-analysis.streamlit.app/)
 
 ## Analysis Pipeline
 1. **Data cleaning and EDA:** date parsing, duplicate and missing-date checks, CPCB AQI categories, distribution and seasonal plots
